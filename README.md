@@ -19,16 +19,16 @@
 ## El array (Equipo - Nombre - Linea/Rol - Altura - Edad - Zona)
 ```
 const equipos = [
-    ["Rojo", "Faker", "Mid", 1.70, 21, "Korea"],
-    ["Azul", "Doublelift", "ADC", 1.72, 23, "Korea"],
-    ["Azul", "Smeb", "Top", 1.68, 22, "Korea"],
-    ["Rojo", "Deft", "ADC", 1.65, 21, "Korea"],
-    ["Rojo", "Perkz", "Top", 1.80, 25, "Europa"],
-    ["Rojo", "Faker", "Mid", 1.70, 21, "Korea"],
-    ["Azul", "Mata", "Support", 1.60, 18, "Korea"],
-    ["Rojo", "Faker", "Mid", 1.70, 21, "Korea"],
-    ["Azul", "Mantarraya", "Top", 1.73, 25, "LAS"],
-    ["Azul", "xPeke", "Mid", 1.78, 27, "Europa"]
+    ["Rojo", "Faker", "Mid", 21, "Korea"],
+    ["Azul", "Doublelift", "ADC", 23, "Korea"],
+    ["Azul", "Smeb", "Top", 22, "Korea"],
+    ["Rojo", "Deft", "ADC", 21, "Korea"],
+    ["Rojo", "Perkz", "Top", 25, "Europa"],
+    ["Rojo", "Faker", "Mid", 21, "Korea"],
+    ["Azul", "Mata", "Support", 18, "Korea"],
+    ["Rojo", "Faker", "Mid", 21, "Korea"],
+    ["Azul", "Mantarraya", "Top", 25, "LAS"],
+    ["Azul", "xPeke", "Mid", 27, "Europa"]
 ]
 ```
 
