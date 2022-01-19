@@ -33,3 +33,4 @@ const equipos = [
 ```
 
 - Se espera que realicen esta practica utilizando forEach(), filter(), map() en lugar de for o for of.
+- De ser posible, generen la tabla utilizando template strings en lugar de hacer todo con createElement() y appendChild()
