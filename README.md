@@ -1,6 +1,6 @@
 # Practica Tablas y Arrays
 
-## Dado un array multidimensional con datos de dos equipos, crear una tabla siguiendo las siguientas pautas:
+## PARTE 1 - Dado un array multidimensional con datos de dos equipos, crear una tabla siguiendo las siguientas pautas:
 
 - Respetar estructura de tabla:
 ```
@@ -32,5 +32,13 @@ const equipos = [
 ]
 ```
 
-- Se espera que realicen esta practica utilizando forEach(), filter(), map() en lugar de for o for of.
-- De ser posible, generen la tabla utilizando template strings en lugar de hacer todo con createElement() y appendChild()
+- Se espera que realicen esta practica utilizando forEach(), filter(), map(), some(), every(), find(), includes() en lugar de for o for of.
+- De ser posible, generen la tabla utilizando template strings en lugar de hacer todo con createElement() y appendChild().
+
+## PARTE 2 - Al final del documento, fuera de la tabla, imprimir los siguientes mensajes en etiquetas <p> dentro de un <div> a partir de funciones utilizando alguno de los metodos mencionados:
+- Faker juega esta partida.
+- No hay nadie con el rol de jungla.
+- Hay al menos un jugador latinoamericano.
+- No todos los jugadores son koreanos.
+- No hay nadie de LAN.
+- No hay nadie de Brasil.
