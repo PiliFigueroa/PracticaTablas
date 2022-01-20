@@ -4,9 +4,9 @@ const equipos = [
     ["Azul", "Smeb", "Top", 22, "Korea"],
     ["Rojo", "Deft", "ADC", 21, "Korea"],
     ["Rojo", "Perkz", "Top", 25, "Europa"],
-    ["Rojo", "Faker", "Mid", 21, "Korea"],
+    ["Rojo", "Armani", "Support", 21, "Korea"],
     ["Azul", "Mata", "Support", 18, "Korea"],
-    ["Rojo", "Faker", "Mid", 21, "Korea"],
+    ["Rojo", "Quintero", "Mid", 21, "Korea"],
     ["Azul", "Mantarraya", "Top", 25, "LAS"],
     ["Azul", "xPeke", "Mid", 27, "Europa"]
 ]
