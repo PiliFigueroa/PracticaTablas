@@ -35,9 +35,8 @@ const equipos = [
 - Se espera que realicen esta practica utilizando forEach(), filter(), map(), some(), every(), find(), includes() en lugar de for o for of.
 - De ser posible, generen la tabla utilizando template strings en lugar de hacer todo con createElement() y appendChild().
 
-## PARTE 2 - Al final del documento, fuera de la tabla, imprimir los siguientes mensajes en etiquetas ```<p>``` dentro de un ```<div>``` a partir de funciones utilizando alguno de los metodos mencionados:
+## PARTE 2 - Al final del documento, fuera de la tabla, imprimir los siguientes mensajes en etiquetas ```<p>``` dentro de un ```<div>``` a partir de funciones utilizando alguno de los metodos mencionados (se realiza sobre el array original sin filtrar):
 
-- Se realiza sobre el array original sin filtrar.
 - Faker juega esta partida.
 - No hay nadie con el rol de jungla.
 - Hay al menos un jugador latinoamericano.
