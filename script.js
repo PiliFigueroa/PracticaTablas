@@ -15,6 +15,7 @@ const equipos = [
 const table = document.querySelector('#table')
 const btnFilter = document.querySelector('#btn')
 const userSelect = document.querySelector('#select')
+const container = document.querySelector('#datos-curiosos')
 
 // FILTRO MI ARRAY USANDO EL VALOR QUE SELECCIONA EL USUARIO
 const filterTeam = () => equipos.filter(arr => arr[0] === userSelect.value)
@@ -39,3 +40,48 @@ btnFilter.addEventListener('click', () => {
     cleanTable()
     generateTable()
 })
+
+// PARTE 2
+
+const juegaFaker = () => {
+    equipos.forEach(arr => {
+        const hayFaker = arr.some(jugador => jugador === "Faker")
+        hayFaker ? container.innerHTML += "Faker juega esta partida<br>" : false
+    })
+}
+
+juegaFaker()
+
+// const noHayJungla = () => {
+//     let stop = false
+//     equipos.forEach(arr => {
+//         const hayJungla = arr.some(rol => rol[2] === "Jungla")
+//         if (!hayJungla && !stop) {
+//             container.innerHTML += "No hay nadie con el rol de jungla"
+//             stop = true
+//         } else {
+//             return false
+//         }
+//     })
+// }
+
+const noHayJungla = () => {
+    const hayJungla = equipos.find(rol => rol[2] === "Jungla")
+    if (!hayJungla) {
+        container.innerHTML += "No hay nadie con el rol de jungla <br>"
+    } else {
+        return false
+    }
+}
+noHayJungla()
+
+const hayJugadorLAS = () => {
+    const jugadorLAS = equipos.find(jugador => jugador[4] === "LAS")
+    if (jugadorLAS) {
+        container.innerHTML += "Hay al menos un jugador latinoamericano <br>"
+    } else {
+        return false
+    }
+}
+hayJugadorLAS()
+
